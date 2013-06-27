@@ -17,7 +17,7 @@
 
   <scm>
     <connection>scm:git:git@github.com:cloudbees/cors-plugin.git</connection>
-    <developerConnection>scm:git:git@cloudbees.com:cloudbees/cors-plugin.git</developerConnection>
+    <developerConnection>scm:git:git@github.com:cloudbees/cors-plugin.git</developerConnection>
   </scm>
   
   <properties>
