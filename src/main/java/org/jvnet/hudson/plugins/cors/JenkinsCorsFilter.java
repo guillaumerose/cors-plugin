@@ -15,7 +15,11 @@ public class JenkinsCorsFilter implements Filter {
 
     private static final String CORS_HANDLE_OPTIONS_METHOD = System.getProperty("cors.options", "true");
     private static final String CORS_METHODS = System.getProperty("cors.methods", "GET, POST, PUT, DELETE");
-    private static final String[] CORS_WHITELIST = {"https://dashboard.cloudbees.com", "http://localhost.cloudbees.com:8080", "https://dashboard.beescloud.com"};
+    private static final String[] CORS_WHITELIST = {"https://dashboard.cloudbees.com", 
+                                                    "http://localhost.cloudbees.com:8080", 
+                                                    "https://dashboard.beescloud.com", 
+                                                    "https://console.cloudbees.com",
+                                                    "https://console.beescloud.com"};
 
     /** {@inheritDoc} */
     public void init(FilterConfig filterConfig) throws ServletException {}
