@@ -10,7 +10,7 @@
 
   <artifactId>dac-cors</artifactId>
   <packaging>hpi</packaging>
-  <version>0.6</version>
+  <version>0.7-SNAPSHOT</version>
   <name>CORS</name>
   <description>Extend Jenkins response header to contain CORS information</description>
   <inceptionYear>2013</inceptionYear>
